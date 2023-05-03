@@ -11,6 +11,9 @@ const ModalDialog = imports.ui.modalDialog;
 const PopupMenu = imports.ui.popupMenu;
 const Ornament = imports.ui.popupMenu.Ornament;
 
+const QuickSettings = imports.ui.quickSettings;
+const QuickSettingsMenu = imports.ui.main.panel.statusArea.quickSettings;
+
 const PowerDaemon = Gio.DBusProxy.makeProxyWrapper(
 '<node>\
   <interface name="com.system76.PowerDaemon">\
